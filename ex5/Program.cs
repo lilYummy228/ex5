@@ -10,7 +10,7 @@ namespace ex5
     {
         static void Main(string[] args)
         {
-            int crystalPrice = 8;
+            int crystalPrice = 10;
             bool isPurchased;
 
             Console.WriteLine($"Добро подаловать в магазин кристаллов! Только у нас продаются " +
@@ -25,8 +25,6 @@ namespace ex5
             gold -= crystalPrice * crystals;
 
             Console.WriteLine($"Теперь у вас {gold} золотых монет и {crystals} кристаллов.");
-            
-
         }
     }
 }
